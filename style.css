@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+.body{
+  background-image: url('./Assets/background5.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-attachment: fixed;
+  height: 100vh; 
+  color:rgb(119, 117, 117);
+  text-align: center;
+  
+}
+.calculator{
+  width: 100%;
+}
+.Age {
+  width: 100%;
+  max-width: 600px;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+.Age h1 {
+font-size: 50px;
+}
+
+.Age h1 span {
+  color: gray;
+}
+
+.age{
+  margin: 40px 0px;
+  padding: 40px 0;
+  border-radius: 70px;
+  background-color: rgb(153, 212, 232);
+  display: flex;
+  align-items: center;
+}
+
+.age input{
+  flex: 1;
+  margin-right:20px;
+  padding: 25px 25px; ;
+  border: 0;
+  outline: 0;
+  font: optional;
+  font-size: 20px;
+  /* background: transparent; */
+  border-radius: 70px;
+  position: relative;
+
+}
+
+.age button {
+  background-color:rgb(10, 140, 142) ;
+  border: 0;
+  outline:0;
+  padding: 15px 30px;
+  margin-right: 50px; 
+  color: #fff;
+  font-size: 20px;
+  border-radius: 70px;
+  cursor: pointer;
+}
+
+.age input::-webkit-calandar-picker-indicator{
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width:auto;
+  height: auto;
+  position: absolute;
+  background-position: calc(100% - 10px);
+  background-size: 30px;
+  cursor: pointer;
+}
+
+#result{
+  font-size: 30px;
+}
+#result span{
+  color: rgb(242, 143, 160);
+  
+}
